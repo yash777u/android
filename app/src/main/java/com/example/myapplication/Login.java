@@ -43,7 +43,7 @@ public class Login extends AppCompatActivity {
 
                 checkIfUserExists(email,pass);
                 if(email.isEmpty() || pass.isEmpty()) {
-                    warningTextView.setText("Error - Fill All Details!!");
+                    warningTextView.setText("Error - Fill All Details!");
                 }
 
                 else
