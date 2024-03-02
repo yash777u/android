@@ -5,4 +5,8 @@
     <color name="Text_heading">#471AA0</color>
     <color name="Button_Background">#BB84E8</color>
     <color name="Red">#FF0000</color>
+    <color name="gray">#F4f4f4</color>
+    <color name="blue">#1565C0</color>
+    <color name="orange">#FF8F00</color>
+
 </resources>
