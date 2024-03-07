@@ -48,4 +48,30 @@
 
     </LinearLayout>
 
+    <TextView
+        android:layout_width="112dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="17dp"
+        android:text="All items"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="17dp"
+            android:id="@+id/recycle_view" />
+
+    </RelativeLayout>
+
+
+
+
 </LinearLayout>
